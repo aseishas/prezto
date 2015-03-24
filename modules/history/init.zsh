@@ -31,6 +31,12 @@ setopt HIST_SAVE_NO_DUPS         # Do not write a duplicate event to the history
 setopt HIST_VERIFY               # Do not execute immediately upon history expansion.
 setopt HIST_BEEP                 # Beep when accessing non-existent history.
 
+# Additional options
+
+setopt HIST_FCNTL_LOCK           # Use fcntl when locking the history file.
+setopt HIST_LEX_WORDS            # Parse events from the history file using normal shell rules.
+setopt HIST_REDUCE_BLANKS        # Remove extra blanks from an event before committing it to history.
+
 #
 # Aliases
 #
