@@ -33,7 +33,7 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'archive' 'git' 'homebrew' 'osx' 'rsync' 'tmux' \
-  'syntax-highlighting' 'history-substring-search' \
+  'syntax-highlighting' 'history-substring-search' 'autosuggestions' \
   'prompt'
 
 #
