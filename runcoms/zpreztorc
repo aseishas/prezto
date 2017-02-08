@@ -32,7 +32,7 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'archive' 'git' 'homebrew' 'osx' 'rsync' 'tmux' \
+  'archive' 'git' 'homebrew' 'notify' 'osx' 'rsync' 'tmux' \
   'syntax-highlighting' 'history-substring-search' 'autosuggestions' \
   'prompt'
 
