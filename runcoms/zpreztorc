@@ -37,18 +37,18 @@ zstyle ':prezto:load' pmodule \
   'prompt'
 
 #
-# Deer
-#
-
-# Set key bindings
-# zstyle ':prezto:module:deer' key-bindings '^k'
-
-#
 # Autosuggestions
 #
 
 # Set the query found color.
 # zstyle ':prezto:module:autosuggestions:color' found ''
+
+#
+# Deer
+#
+
+# Set key bindings
+# zstyle ':prezto:module:deer' key-bindings '^k'
 
 #
 # Editor
