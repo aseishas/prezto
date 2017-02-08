@@ -88,6 +88,16 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # zstyle ':prezto:module:history-substring-search' globbing-flags ''
 
 #
+# Notify
+#
+
+# Set a custom notification title for success.
+zstyle ':notify:*' success-title 'Success'
+
+# Set a custom notification title for failure.
+zstyle ':notify:*' error-title 'Failure'
+
+#
 # Pacman
 #
 
