@@ -36,14 +36,9 @@ fi
 if ssh-add -l 2>&1 | grep -q 'The agent has no identities'; then
   zstyle -a ':prezto:module:ssh:load' identities '_ssh_identities'
   if (( ${#_ssh_identities} > 0 )); then
-    ssh-add "$_ssh_dir/${^_ssh_identities[@]}" 2> /dev/null
+    ssh-add "$_ssh_dir/${^_ssh_identities[@]}"  < /dev/null 2> /dev/null
   else
-    # In macOS, `ssh-add -A` will load all identities defined in Keychain
-    if [[ `uname -s` == 'Darwin' ]]; then
-      ssh-add -A 2> /dev/null
-    else
-      ssh-add 2> /dev/null
-    fi
+    ssh-add  < /dev/null 2> /dev/null
   fi
 fi
 

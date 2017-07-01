@@ -71,19 +71,16 @@ window or tab.
 Updating
 --------
 
-Make sure you are tracking this fork:
+Run `zprezto-update` to automatically check if there is an update to zprezto.
+If there are no file conflicts, zprezto its submodules will be automatically
+be updated. If there are conflicts you will instructed to go
+into the `$ZPREZTODIR` directory and resolve them yourself.
 
-    $ git remote -v
-    origin  https://github.com/zsh-users/prezto.git (fetch)
-    origin  https://github.com/zsh-users/prezto.git (push)
+To pull the latest changes and update submodules manually:
 
-If you see `sorin-ionescu` instead of `zsh-users`, update your remote:
-
-    git remote set-url origin https://github.com/zsh-users/prezto.git
-
-Then pull the latest changes and update submodules.
-
-    git pull && git submodule update --init --recursive
+    cd $ZPREZTODIR
+    git pull
+    git submodule update --init --recursive
 
 Usage
 -----
