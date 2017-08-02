@@ -6,9 +6,8 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-local version
-local version_format
-local version_formatted
+# function python-info {
+
 local virtualenv_format
 local virtualenv_formatted
 
@@ -33,3 +32,5 @@ if [[ -n "$VIRTUAL_ENV" ]]; then
   zformat -f virtualenv_formatted "$virtualenv_format" "v:${VIRTUAL_ENV:t}"
   python_info[virtualenv]="$virtualenv_formatted"
 fi
+
+# }

@@ -44,11 +44,12 @@ zstyle ':prezto:load' pmodule \
 # zstyle ':prezto:module:autosuggestions:color' found ''
 
 #
-# Deer
+# Completions
 #
 
-# Set key bindings
-# zstyle ':prezto:module:deer' key-bindings '^k'
+# Set the entries to ignore in static */etc/hosts* for host completion.
+# zstyle ':prezto:module:completion:*:hosts' etc-host-ignores \
+#   '0.0.0.0' '127.0.0.1'
 
 #
 # Editor
@@ -101,6 +102,13 @@ zstyle ':notify:*' success-title 'Success'
 zstyle ':notify:*' error-title 'Failure'
 
 #
+# OS X
+#
+
+# Set the keyword used by `mand` to open man pages in Dash.app
+# zstyle ':prezto:module:osx:man' dash-keyword 'manpages'
+
+#
 # Pacman
 #
 
@@ -116,7 +124,9 @@ zstyle ':notify:*' error-title 'Failure'
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'sorin'
 
-# Set how themes that use promptpwd function display the pwd, can be 'short', 'long', or 'full'
+# Set the working directory prompt display length.
+# By default, it is set to 'short'. Set it to 'long' (without '~' expansion)
+# for longer or 'full' (with '~' expansion) for even longer prompt display.
 # zstyle ':prezto:module:prompt' pwd-length 'short'
 
 #
@@ -132,6 +142,9 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 
 # Auto switch the Python virtualenv on directory change.
 # zstyle ':prezto:module:python:virtualenv' auto-switch 'yes'
+
+# Automatically initialize virtualenvwrapper if pre-requisites are met.
+# zstyle ':prezto:module:python:virtualenv' initialize 'yes'
 
 #
 # Screen
@@ -205,3 +218,12 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Set the default session name:
 # zstyle ':prezto:module:tmux:session' name 'YOUR DEFAULT SESSION NAME'
+
+#
+# Utility
+#
+
+# Enabled safe options. This aliases cp, ln, mv and rm so that they prompt
+# before deleting or overwriting files. Set to 'no' to disable this safer
+# behavior.
+# zstyle ':prezto:module:utility' safe-ops 'yes'
