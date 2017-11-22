@@ -35,12 +35,19 @@ Additionally, if `pigz` and/or `pbzip2` are installed, `archive` will use them o
 their traditional counterparts, `gzip` and `bzip2` respectively, to take full advantage
 of all available CPU cores for compression.
 
+Alternatives
+------------
+
+Specifically on macOS, [The Unarchiver][1] provides a similar command line tool
+which doesn't depend on a number of other programs being installed.
+
 Authors
 -------
 
-*The authors of this module should be contacted via the [issue tracker][1].*
+*The authors of this module should be contacted via the [issue tracker][2].*
 
   - [Sorin Ionescu](https://github.com/sorin-ionescu)
   - [Matt Hamilton](https://github.com/Eriner)
 
-[1]: https://github.com/zsh-users/prezto/issues
+[1]: https://theunarchiver.com/command-line
+[2]: https://github.com/zsh-users/prezto/issues
