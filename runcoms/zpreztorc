@@ -37,6 +37,7 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'archive' 'git' 'homebrew' 'notify' 'osx' 'rsync' 'tmux' \
   'syntax-highlighting' 'history-substring-search' 'autosuggestions' \
+  'contrib-prompt' \
   'prompt'
 
 #
