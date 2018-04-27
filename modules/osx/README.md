@@ -1,7 +1,7 @@
 OSX
 ===
 
-Defines [Mac OS X][1] aliases and functions.
+Defines [macOS][1] aliases and functions.
 
 Settings
 --------
@@ -34,14 +34,8 @@ Functions
   - `tab` creates a new tab (works in both _Terminal_ and [_iTerm_][3]).
   - `ql` previews files in Quick Look.
   - `osx-rm-dir-metadata` deletes .DS\_Store, \_\_MACOSX cruft.
-  - `osx-ls-download-history` displays the Mac OS X download history.
-  - `osx-rm-download-history` deletes the Mac OS X download history.
-  - `local-ip en0` shows local ip address [5].
-  - `public-ip` shows public ip address [5].
-  - `battery-time` shows battery remaining time [5].
-  - `battery-percentage` shows battery level/percentage [5].
-  - `bluetooth-keyboard-battery` shows bluethooth keyboard battery level/percentage.
-  - `bluetooth-mouse-battery` shows bluethooth mouse battery level/percentage.
+  - `osx-ls-download-history` displays the macOS download history.
+  - `osx-rm-download-history` deletes the macOS download history.
 
 Authors
 -------

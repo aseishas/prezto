@@ -65,6 +65,9 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # Auto convert .... to ../..
 # zstyle ':prezto:module:editor' dot-expansion 'yes'
 
+# Allow the zsh prompt context to be shown.
+#zstyle ':prezto:module:editor' ps-context 'yes'
+
 #
 # Git
 #
@@ -103,7 +106,7 @@ zstyle ':notify:*' success-title 'Success'
 zstyle ':notify:*' error-title 'Failure'
 
 #
-# OS X
+# macOS
 #
 
 # Set the keyword used by `mand` to open man pages in Dash.app
