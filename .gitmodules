@@ -33,4 +33,4 @@
 	url = https://github.com/bhilburn/powerlevel9k.git
 [submodule "contrib"]
 	path = contrib
-	url = https://github.com/belak/prezto-contrib
+	url = https://github.com/aseishas/prezto-contrib
