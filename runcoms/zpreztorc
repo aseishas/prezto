@@ -96,6 +96,13 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 # zstyle ':prezto:module:history-substring-search' globbing-flags ''
 
 #
+# macOS
+#
+
+# Set the keyword used by `mand` to open man pages in Dash.app
+# zstyle ':prezto:module:osx:man' dash-keyword 'manpages'
+
+#
 # Notify
 #
 
@@ -104,13 +111,6 @@ zstyle ':notify:*' success-title 'Success'
 
 # Set a custom notification title for failure.
 zstyle ':notify:*' error-title 'Failure'
-
-#
-# macOS
-#
-
-# Set the keyword used by `mand` to open man pages in Dash.app
-# zstyle ':prezto:module:osx:man' dash-keyword 'manpages'
 
 #
 # Pacman
