@@ -15,6 +15,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+#
+# zsh-notify must be configured *after* loading the module
+#
+
+# Set a custom notification title for success.
+zstyle ':notify:*' success-title 'Success'
+
+# Set a custom notification title for failure.
+zstyle ':notify:*' error-title 'Failure'
+
 # Customize to your needs...
 
 # Source additional aliases.
