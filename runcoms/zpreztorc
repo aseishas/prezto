@@ -38,13 +38,9 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-<<<<<<< HEAD
   'archive' 'fasd' 'git' 'homebrew' 'notify' 'osx' 'rsync' 'tmux' \
   'syntax-highlighting' 'history-substring-search' 'autosuggestions' \
   'contrib-prompt' \
-=======
-  'history-substring-search' \
->>>>>>> be61026920c9a0db6d775ec97a002984147b954c
   'prompt'
 
 #
